@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+.myBody{
+    background-image: url(/background.svg);
+    height: 100vh;
+    width: 100vw;
+    padding: 5vh;
+    overflow-x: hidden;
+}
+
+.bgMilk{
+    background-color: #CCC292;
+}
+.bgPink{
+    background-color: #D49595;
+}
+.bgRed{
+    background-color: #AB3333;    
+}
+.bgGray{
+    background-color: #848C8C;
+}
+.bgPiel{
+    background-color: #D28D7C;
+}
+.bgWhite{
+    background-color: #fff6eb;
+}.colorWhite{
+    color: #fff6eb;
+}
+.bgOpaque{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.outlineBlack{
+    outline: solid 1.5px black;
+}
+
+.sombra{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* estilos del modal */
+.modal{
+    background-color: rgba(0, 0, 0, 0.4);
+    border: solid 1px rgba(255, 255, 255, 0.6);
+    z-index: 10;
+    width: 90vw;
+    height: 90vh;
+    position: fixed;
+    top: 5vh;
+    left: 5vw;;
+}
+
+
+/* Estilos del carrusel */
+.swiper{
+    height: 30vh;
+    width: 80%;
+    padding: 1rem 0;
+    color: #fff6eb;
+    
+}.swiperHuerfanos{
+    background-image: url("/backgroundBlocks.svg");
+}.swiperAdoptados{
+    background-image: url("/backgroundStar.svg");
+}
+.swiper-wrapper{
+
+}
+.swiper-slider{
+
+}.carruselContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 1px rgba(255, 255, 255, 0.6);
+}
+        .carruselImage{
+            height: 80%;
+            object-fit: contain;
+        }
+        .carruselContent{
+            height: 20%;
+            border: solid 1px rgba(255, 255, 255, 0.6);
+        }
+.swiper-button-prev{
+
+}
+.swiper-button-next{
+    
+}
+.swiper-scrollbar{
+
+}
+.swiper-pagination{
+
+}
+
+
+
+
+}
