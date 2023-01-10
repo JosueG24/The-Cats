@@ -3,6 +3,9 @@
 Sitio web que simula ser un horfanato de gatos. Muestra un listado de los gatos adoptados y los gantos huerfanos, puedes entrar adoptar a un gato y ponerle un nombre.
 Es una SPA(single page aplication) que consume una aplicación backend en modo api Rest o graphql.
 Este ´proyecto se creó con la intencion de mostrar mis conocimientos en el desarrollo de aplicaciones Rest Api y Graphql.
+Para acceder los repositorios de estos proyectos visita: 
+- https://github.com/JosueG24/TheCats-Rest
+- https://github.com/JosueG24/TheCats-Graphql
 
 # Screenshot
 No disponible aun.
